@@ -1,4 +1,4 @@
-# Web Scrape Wuzzuf For a Job Title and Get a Dashboard Of Your Own
+## Web Scrape Wuzzuf For a Job Title and Get a Dashboard Of Your Own
 
 ### The following softwares are expected to be used in this project:
 

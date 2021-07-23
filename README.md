@@ -1,5 +1,10 @@
 # Web Scrape Wuzzuf For a Job Title and Get a Dashboard Of Your Own
 
+### The following softwares are expected to be used in this project:
+
+- Jupyter Notebooks
+- Power BI desktop
+
 ### The following libraries are expected to be used in this project:
 
 - Selenium 

@@ -52,7 +52,7 @@
 ![11](https://user-images.githubusercontent.com/77448625/126836376-a2ba191d-e476-4776-8d66-e8e1e54f9179.jpg)
 ![12](https://user-images.githubusercontent.com/77448625/126836382-10b5ef4a-5457-4053-8a85-1f00f87550b4.jpg)
 
-> It's a really humble and quick one, you are more than welcome to take this to the next level
+> #### It's a really humble and quick one, you are more than welcome to take this to the next level for both the code and the dashboard, Regards.
 
 
 

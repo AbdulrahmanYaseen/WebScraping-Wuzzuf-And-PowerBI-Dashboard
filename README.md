@@ -39,5 +39,16 @@
 - You can Download the pbix file from the files upove
 - First: Change the datasource to your saved file, apply and you are good to go
 
+![10](https://user-images.githubusercontent.com/77448625/126836386-a0598b80-4efb-4a1b-abd5-2f8c3fbae4fd.jpg)
+
+- You have Two pages one with simple stats about your job title and one where you can search your data
+
+
+![11](https://user-images.githubusercontent.com/77448625/126836376-a2ba191d-e476-4776-8d66-e8e1e54f9179.jpg)
+![12](https://user-images.githubusercontent.com/77448625/126836382-10b5ef4a-5457-4053-8a85-1f00f87550b4.jpg)
+
+> It's a really humble and quick one, you are more than welcome to take this to the next level
+
+
 
 

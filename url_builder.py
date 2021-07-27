@@ -1,7 +1,3 @@
-# %%
-import selenium
-
-
 def url_gen(job, filters):
     '''
     Get a job title and job filters to generate the query url for scrapping
@@ -37,12 +33,3 @@ def url_gen(job, filters):
     url += '&q={}&start=0'.format(job.strip().lower().replace(' ','%20'))
 
     return url
-
-job = 'Data Analyst'
-filters = {
-    'career_level': ['student', 'entry level']
-}
-
-url_gen(job,filters)
-
-# %%

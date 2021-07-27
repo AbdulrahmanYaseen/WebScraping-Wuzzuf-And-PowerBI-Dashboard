@@ -12,10 +12,12 @@ def url_gen(job, filters):
     # The base text of the url
     url = 'https://wuzzuf.net/search/jobs/?a=navbl'
 
-    # Iterate through filters the through its values to edit the search query url
+    # Iterate through filters then through its values to edit the search query url
     for key, value in filters.items():
+        # Empty Filter
         if not value:
             continue
+        # if filter category is list, sort it and add the values to the url
         if type(value) == list:
             value.sort()
             for i, value in enumerate(value):
@@ -24,6 +26,7 @@ def url_gen(job, filters):
                 if key == 'job_types':
                     url += '&filters%5B{}%5D%5B{}%5D={}'.format(key,i,value.lower().replace(' ','_'))
             continue
+        # if filter category is string add the value to the url
         if type(value) == str:
             url += '&filters%5B{}%5D%5B0%5D=within_{}'.format(key,value.lower().replace(' ','_'))
 

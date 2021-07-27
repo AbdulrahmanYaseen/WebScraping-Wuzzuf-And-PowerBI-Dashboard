@@ -27,10 +27,31 @@
 ### How it works:
 - Enter the required data here which are basically:
   - the title you want to get the data about
+  - the filters you want to apply on the search result (*leave the category [empty](a "[] for lists, '' for string") for no filter*) :
+    - **Career Level** (*[list of strings](a "text between quotation marks, comma seperated ,and packed between square brackets i.e.['value 1','value 2']") with one or more of the following values*):
+      - Entry level
+      - Experienced
+      - Manager
+      - Senior Management
+      - Student
+    - **Job Type** (*[list of strings](a "text between quotation marks, comma seperated ,and packed between square brackets i.e.['value 1','value 2']") with one or more of the following values*):
+      - Contract
+      - Full Time
+      - Internship
+      - Part Time
+      - Shift Based
+      - Work from Home
+    - **Post Date** (*[string](a "text bentween quotation marks") with only one of the following values*):
+      - 24 hours
+      - 1 week
+      - 1 month
   - the path where your downloaded driver is saved at
+    - **Recommended: folder named 'comp' in the same folder of the .ipynb file**
   - the path where you want to save the scraped data 
+    - **Recommended: folder named 'comp' in the same folder of the .ipynb file**
+  
 
-![1](https://user-images.githubusercontent.com/77448625/126833930-a6a7212f-c0f1-46f5-afce-e8c93d570a83.jpg)
+![1](/comp/Screenshot%202021-07-27%20015616.jpg)
 
 - The code simply uses beautifulsoup for scraping the search pages, each page holds around 15 search results, so with beautifulsoup I only scraped the "surface" info like job title, link, location, and company name
 - For inner pages -the jobs- I used selenium to iterate through each page and scrape the desired data by it's X_Path, you will actually see the chrome driver iterating through each page, which takes a long time of course based on how many search results you have.

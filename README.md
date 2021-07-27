@@ -46,9 +46,9 @@
       - 1 week
       - 1 month
   - the path where your downloaded driver is saved at
-    - **default: folder named 'comb' in the same folder of the .ipynb file**
+    - **Recommended: folder named 'comp' in the same folder of the .ipynb file**
   - the path where you want to save the scraped data 
-    - **default: folder named 'comb' in the same folder of the .ipynb file**
+    - **Recommended: folder named 'comp' in the same folder of the .ipynb file**
   
 
 ![1](/comp/Screenshot%202021-07-27%20015616.jpg)
